@@ -189,10 +189,16 @@ def parse_ficha(url, browser):
         print("⚠️ No se encontró la sección de Premios.")
 
     print("💰 Buscando el precio de la botella...")
-    precio_elem = soup.select_one("p.price")
+    precio_elem = soup.select_one("div.precioPorBotella span.precio")
     if precio_elem:
-        match = re.search(r"(\d+,\d+)", precio_elem.get_text())
-        vino["bottle_price"] = float(match.group(1).replace(",", ".")) if match else None
+        match = re.search(r"(\d+[.,]?\d*)", precio_elem.get_text())
+        if match:
+            vino["bottle_price"] = float(match.group(1).replace(",", "."))
+            print(f"✅ Precio por botella: {vino['bottle_price']}€")
+        else:
+            print("⚠️ No se pudo extraer el número del precio.")
+    else:
+        print("⚠️ No se encontró el elemento del precio.")
 
     page_obj.close()
     return vino

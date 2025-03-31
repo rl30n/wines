@@ -1,0 +1,39 @@
+PUT _ingest/pipeline/enrich-province-geometry
+{
+  "processors": [
+    {
+      "enrich": {
+        "policy_name": "province-geometry-enrich",
+        "field": "province",
+        "target_field": "enriched_province",
+        "max_matches": 1
+      }
+    },
+    {
+      "script": {
+        "if": "ctx.enriched_province != null && ctx.enriched_province.geometry != null",
+        "source": """
+          ctx.province_geometry = ctx.enriched_province.geometry;
+        """
+      }
+    },
+    {
+      "remove": {
+        "field": "enriched_province",
+        "ignore_missing": true
+      }
+    }
+  ]
+}
+
+
+POST /_reindex
+{
+  "source": {
+    "index": "vinos_a_uvas"
+  },
+  "dest": {
+    "index": "vinos_a_uvas_enriched",
+    "pipeline": "enrich-province-geometry"
+  }
+}

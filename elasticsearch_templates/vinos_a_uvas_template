@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "properties": {
+      "variety": {"type": "keyword"},
+      "province": {"type": "keyword"},
+      "location_coords": {"type": "geo_point"},
+      "province_geometry": {"type": "geo_shape"},
+      "province_shape_str": { "type": "keyword" }
+    }
+  }
+}

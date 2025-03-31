@@ -1,0 +1,67 @@
+{
+    "index_patterns": ["vinos_embeddings*"],
+    "template": {
+      "settings": {
+          "number_of_replicas": 0
+        },
+      "mappings": {
+        "properties": {
+            "province_shape_str": {
+      "type": "keyword"
+    },
+          "province_shape": {
+    "type": "geo_shape"
+  },
+          "province_geometry": {
+    "type": "geo_shape"
+  },
+          "wine_name": { "type": "text" },
+          "wine_name_embedding": { "type": "dense_vector", "dims": 4096 },
+  
+          "wine_description": { "type": "text" },
+          "wine_description_embedding": { "type": "dense_vector", "dims": 4096 },
+  
+          "winery": { "type": "text" },
+          "winery_embedding": { "type": "dense_vector", "dims": 4096 },
+  
+          "sensory_profile": {
+            "properties": {
+              "cata_visual": { "type": "text" },
+              "cata_visual_embedding": { "type": "dense_vector", "dims": 4096 },
+  
+              "cata_olfativa": { "type": "text" },
+              "cata_olfativa_embedding": { "type": "dense_vector", "dims": 4096 },
+  
+              "cata_gustativa": { "type": "text" },
+              "cata_gustativa_embedding": { "type": "dense_vector", "dims": 4096 },
+  
+              "maridaje": { "type": "text" },
+              "maridaje_embedding": { "type": "dense_vector", "dims": 4096 }
+            }
+          },
+  
+          "vinification": { "type": "text" },
+          "vinification_embedding": { "type": "dense_vector", "dims": 4096 },
+  
+          "info_table": {
+            "properties": {
+              "variety_table": { "type": "text" },
+              "variety_table_embedding": { "type": "dense_vector", "dims": 4096 },
+  
+              "appellation_table": { "type": "keyword" },
+              "location_table": { "type": "keyword" },
+              "location_coords": { "type": "geo_point" },
+              "grado": { "type": "float" },
+              "temp_serv": { "type": "float" },
+              "bottle_size": { "type": "float" },
+              "crianza_type": { "type": "boolean" }
+            }
+          },
+  
+          "bottle_price": { "type": "float" },
+          "@timestamp": { "type": "date" },
+          "url": { "type": "keyword" }
+        }
+      }
+    }
+  }

@@ -1,0 +1,8 @@
+#PUT /_enrich/policy/province-geometry-enrich
+{
+  "match": {
+    "indices": "spain-provinces",
+    "match_field": "name",
+    "enrich_fields": ["geometry"]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "index_patterns": ["vinos-*"],
+  "template": {
+    "settings": {
+      "number_of_shards": 1
+    },
+    "mappings": {
+      "properties": {
+          "province_shape_str": {
+    "type": "keyword"
+  },
+        "province_shape": {
+            "type": "geo_shape"
+        },
+                "province_geometry": {
+            "type": "geo_shape"
+        },
+        "url": {
+          "type": "keyword"
+        },
+        "wine_name": {
+          "type": "text"
+        },
+        "winery": {
+          "type": "text"
+        },
+        "wine_description": {
+          "type": "text"
+        },
+        "appellation": {
+          "type": "keyword"
+        },
+        "wine_type": {
+          "type": "keyword"
+        },
+        "sensory_profile": {
+          "properties": {
+            "cata_visual": { "type": "text" },
+            "cata_olfativa": { "type": "text" },
+            "cata_gustativa": { "type": "text" },
+            "maridaje": { "type": "text" }
+          }
+        },
+        "vinification": {
+          "type": "text"
+        },
+        "info_table": {
+          "properties": {
+            "appellation_table": { "type": "keyword" },
+            "location_table": { "type": "keyword" },
+            "location_coords": {
+              "type": "geo_point"
+            },
+            "variety_table": {
+              "type": "keyword"
+            },
+            "wine_type_table": { "type": "keyword" },
+            "crianza_type": { "type": "boolean" },
+            "barrel_time": { "type": "integer" },
+            "barrel_type": { "type": "keyword" },
+            "grado": { "type": "float" },
+            "temp_serv": { "type": "float" },
+            "bottle_size": { "type": "float" }
+          }
+        },
+        "awards": {
+          "properties": {
+            "decanter": { "type": "keyword", "null_value": "null" },
+            "bacchus": { "type": "text" }
+          }
+        },
+        "bottle_price": {
+          "type": "float"
+        }
+      }
+    }
+  }
+}

@@ -123,7 +123,7 @@ def generate_answer_with_context(prompt, context_docs):
 
     composed_prompt = (
         f"Teniendo en cuenta la siguiente información sobre vinos:\n\n{context_texts}\n\n"
-        f"Responde a la siguiente pregunta de forma precisa y experta como somelier:\n\n{prompt}"
+        f"Responde a la siguiente pregunta de forma precisa y experta como el somelier que eres, VinoBot 3k:\n\n{prompt}"
     )
 
     logger.debug("Prompt enviado a Mistral con contexto:\n%s", composed_prompt[:1000])

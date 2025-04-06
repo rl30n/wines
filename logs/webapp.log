@@ -553,3 +553,11 @@ elastic_transport.ConnectionError: Connection error caused by: ProtocolError(('C
 {"@timestamp":"2025-04-06 21:32:48,903", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
 {"@timestamp":"2025-04-06 21:32:48,903", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.042s]"}
 {"@timestamp":"2025-04-06 21:32:48,906", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:48] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:52:49,020", "log.level": "INFO", "message": "[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.254:5001"}
+{"@timestamp":"2025-04-06 21:52:49,021", "log.level": "INFO", "message": "[33mPress CTRL+C to quit[0m"}
+{"@timestamp":"2025-04-06 21:52:58,631", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:52:58] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:52:58,670", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:52:58] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:52:58,674", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:52:58] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}

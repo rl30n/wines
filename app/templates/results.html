@@ -81,21 +81,7 @@
 
         <a href="/">Volver</a>
 
-        <hr style="margin: 40px 0;">
 
-        <h2>¿Quieres seguir preguntando sobre este tema?</h2>
-        <form action="/ask" method="post">
-            <input type="hidden" name="context" value="{{ result }}">
-            <textarea name="query" rows="3" style="width: 100%; padding: 10px;" placeholder="Escribe tu siguiente pregunta..."></textarea>
-            <button type="submit" style="margin-top: 10px; background-color: #4CAF50;">Preguntar con contexto</button>
-        </form>
-
-        <h2 style="margin-top: 40px;">¿O hacer una nueva consulta desde cero?</h2>
-        <form action="/ask" method="post">
-            <input type="hidden" name="context" value="">
-            <textarea name="query" rows="3" style="width: 100%; padding: 10px;" placeholder="Escribe tu nueva pregunta..."></textarea>
-            <button type="submit" style="margin-top: 10px; background-color: #4CAF50;">Preguntar sin contexto</button>
-        </form>
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", function () {

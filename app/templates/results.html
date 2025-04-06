@@ -51,17 +51,61 @@
         a:hover {
             background-color: #1976D2;
         }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            a {
+                width: 100%;
+                text-align: center;
+            }
+        }
     </style>
 </head>
 <body>
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="{{ url_for('static', filename='vinobot3k.png') }}" alt="VinoBot 3k" style="max-width: 150px; height: auto;">
+    </div>
     <div class="container">
         <h2>Tu pregunta:</h2>
         <p class="question">{{ query }}</p>
 
         <h2>VinoBot 3k dice:</h2>
+        <div id="loading" style="text-align: center; display: none; margin-bottom: 20px;">
+            <img src="{{ url_for('static', filename='robot_loading.gif') }}" alt="Procesando..." style="max-width: 100px; height: auto;">
+            <p>Procesando tu consulta...</p>
+        </div>
         <div class="result">{{ result }}</div>
 
         <a href="/">Volver</a>
+
+        <hr style="margin: 40px 0;">
+
+        <h2>¿Quieres seguir preguntando sobre este tema?</h2>
+        <form action="/ask" method="post">
+            <input type="hidden" name="context" value="{{ result }}">
+            <textarea name="query" rows="3" style="width: 100%; padding: 10px;" placeholder="Escribe tu siguiente pregunta..."></textarea>
+            <button type="submit" style="margin-top: 10px; background-color: #4CAF50;">Preguntar con contexto</button>
+        </form>
+
+        <h2 style="margin-top: 40px;">¿O hacer una nueva consulta desde cero?</h2>
+        <form action="/ask" method="post">
+            <input type="hidden" name="context" value="">
+            <textarea name="query" rows="3" style="width: 100%; padding: 10px;" placeholder="Escribe tu nueva pregunta..."></textarea>
+            <button type="submit" style="margin-top: 10px; background-color: #4CAF50;">Preguntar sin contexto</button>
+        </form>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const forms = document.querySelectorAll("form");
+            forms.forEach(form => {
+                form.addEventListener("submit", () => {
+                    document.getElementById("loading").style.display = "block";
+                });
+            });
+        });
+    </script>
 </body>
 </html>

@@ -80,7 +80,7 @@ Esto genera un embedding para el prompt y consulta el índice con búsqueda por 
 
 ## 📌 Notas
 
-- El campo `combined_text_embedding` debe tener `dims: 384` en el template de índice.
+- El campo `combined_text_embedding` debe tener `dims: 4096` en el template de índice.
 - Se usa `ecs-logging` para salida estructurada en consola y en archivo `logs/prompter.log`.
 
 ---

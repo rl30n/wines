@@ -14,7 +14,7 @@ PUT _index_template/vinos_embeddings_template
         },
         "combined_text_embedding": {
           "type": "dense_vector",
-          "dims": 256,
+          "dims": 4096,
           "index": true,
           "similarity": "cosine",
           "index_options": {
@@ -38,14 +38,14 @@ PUT _index_template/vinos_embeddings_template
         },
         "wine_name_embedding": {
           "type": "dense_vector",
-          "dims": 256
+          "dims": 4096
         },
         "wine_description": {
           "type": "text"
         },
         "wine_description_embedding": {
           "type": "dense_vector",
-          "dims": 256
+          "dims": 4096
         },
         "winery": {
           "type": "text",
@@ -53,7 +53,7 @@ PUT _index_template/vinos_embeddings_template
         },
         "winery_embedding": {
           "type": "dense_vector",
-          "dims": 256
+          "dims": 4096
         },
         "sensory_profile": {
           "properties": {
@@ -63,7 +63,7 @@ PUT _index_template/vinos_embeddings_template
             },
             "cata_visual_embedding": {
               "type": "dense_vector",
-              "dims": 256
+              "dims": 4096
             },
             "cata_olfativa": {
               "type": "text",
@@ -71,7 +71,7 @@ PUT _index_template/vinos_embeddings_template
             },
             "cata_olfativa_embedding": {
               "type": "dense_vector",
-              "dims": 256
+              "dims": 4096
             },
             "cata_gustativa": {
               "type": "text",
@@ -79,7 +79,7 @@ PUT _index_template/vinos_embeddings_template
             },
             "cata_gustativa_embedding": {
               "type": "dense_vector",
-              "dims": 256
+              "dims": 4096
             },
             "maridaje": {
               "type": "text",
@@ -87,7 +87,7 @@ PUT _index_template/vinos_embeddings_template
             },
             "maridaje_embedding": {
               "type": "dense_vector",
-              "dims": 256
+              "dims": 4096
             }
           }
         },
@@ -97,7 +97,7 @@ PUT _index_template/vinos_embeddings_template
         },
         "vinification_embedding": {
           "type": "dense_vector",
-          "dims": 256
+          "dims": 4096
         },
         "info_table": {
           "properties": {
@@ -107,7 +107,7 @@ PUT _index_template/vinos_embeddings_template
             },
             "variety_table_embedding": {
               "type": "dense_vector",
-              "dims": 256
+              "dims": 4096
             },
             "appellation_table": {
               "type": "keyword"

@@ -533,3 +533,23 @@ elastic_transport.ConnectionError: Connection error caused by: ProtocolError(('C
 {"@timestamp":"2025-04-06 21:31:00,119", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
 {"@timestamp":"2025-04-06 21:31:00,119", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.007s]"}
 {"@timestamp":"2025-04-06 21:31:00,120", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:31:00] "GET /api/mapdata?wine_type=Bobal HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:31:52,861", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:31:52] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:31:52,909", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:31:52] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:31:52,913", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:31:52] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06T19:32:01.907Z","log.level":"info","message":"Consulta recibida","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":57,"name":"__init__.py"},"function":"index"},"original":"Consulta recibida"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-43 (process_request_thread)"}},"user":{"query":"sabes cu\u00e1l es tu nombre?"}}
+{"@timestamp":"2025-04-06 21:32:01,907", "log.level": "INFO", "message": "Consulta recibida"}
+{"@timestamp":"2025-04-06T19:32:01.907Z","log.level":"debug","message":"Llamando a prompter.py con el prompt","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":60,"name":"__init__.py"},"function":"index"},"original":"Llamando a prompter.py con el prompt"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-43 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:32:01,907", "log.level": "DEBUG", "message": "Llamando a prompter.py con el prompt"}
+{"@timestamp":"2025-04-06T19:32:08.472Z","log.level":"debug","message":"prompter.py completado en 6.565 segundos","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":68,"name":"__init__.py"},"function":"index"},"original":"prompter.py completado en 6.565 segundos"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-43 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:32:08,472", "log.level": "DEBUG", "message": "prompter.py completado en 6.565 segundos"}
+{"@timestamp":"2025-04-06 21:32:08,475", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:08] "POST / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:32:08,720", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:08] "[33mGET /static/robot_loading.gif HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:32:08,722", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:08] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:32:46,675", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:46] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:32:46,749", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:46] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:32:46,751", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:46] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:32:48,689", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:48] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:32:48,758", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:48] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:32:48,903", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:32:48,903", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.042s]"}
+{"@timestamp":"2025-04-06 21:32:48,906", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:48] "GET /api/varieties HTTP/1.1" 200 -"}

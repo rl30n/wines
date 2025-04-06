@@ -8,6 +8,13 @@ import ecs_logging
 import os
 from logging.handlers import TimedRotatingFileHandler, RotatingFileHandler
 from pathlib import Path
+import urllib3
+import warnings
+from urllib3.exceptions import InsecureRequestWarning, SecurityWarning
+from elastic_transport import TransportWarning
+warnings.filterwarnings("ignore", category=InsecureRequestWarning)
+warnings.filterwarnings("ignore", category=SecurityWarning)
+warnings.filterwarnings("ignore", category=TransportWarning)
 
 # --- Config ---
 ES_HOST = "https://localhost:9200"
@@ -72,6 +79,8 @@ def generate_embedding(prompt):
 
 # --- Query Elasticsearch con knn ---
 def search_vinos(embedding):
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    
     client = Elasticsearch(ES_HOST, basic_auth=(ES_USER, ES_PASS), verify_certs=False)
 
     query = {
@@ -146,5 +155,4 @@ for hit in results:
     logger.debug("Resultado: %s", hit)
 
 final_answer = generate_answer_with_context(args.prompt, results)
-print("\n🧠 Respuesta generada por Mistral:")
 print(final_answer)

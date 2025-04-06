@@ -13,14 +13,30 @@ import concurrent.futures
 import threading
 from ecs_logging import StdlibFormatter
 import logging
+import logging.handlers
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 logger = logging.getLogger("vino_scraper")
-handler = logging.StreamHandler()
-handler.setFormatter(StdlibFormatter())
-logger.addHandler(handler)
 logger.setLevel(logging.INFO)
+
+log_path = "logs"
+os.makedirs(log_path, exist_ok=True)
+
+# Consola
+stream_handler = logging.StreamHandler()
+stream_handler.setFormatter(StdlibFormatter())
+logger.addHandler(stream_handler)
+
+# Archivo con rotación diaria, manteniendo 7 días
+file_handler = logging.handlers.TimedRotatingFileHandler(
+    filename=os.path.join(log_path, "scraper.log"),
+    when="D",
+    backupCount=7,
+    encoding="utf-8"
+)
+file_handler.setFormatter(StdlibFormatter())
+logger.addHandler(file_handler)
 
 def parse_ficha(url, browser):
     page_obj = browser.new_page()

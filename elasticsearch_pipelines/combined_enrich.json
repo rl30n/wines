@@ -1,0 +1,38 @@
+PUT _ingest/pipeline/compute_combined_embedding
+{
+  "description": "Combina varios embeddings en uno solo",
+  "processors": [
+    {
+      "script": {
+        "lang": "painless",
+        "source": """
+          def fields = ['wine_description_embedding', 'vinification_embedding', 'sensory_profile_cata_gustativa_embedding', 'sensory_profile_maridaje_embedding'];
+          def result = null;
+          def count = 0;
+
+          for (f in fields) {
+            if (ctx.containsKey(f) && ctx[f] != null) {
+              def v = ctx[f];
+              if (result == null) {
+                result = new ArrayList(v);
+              } else {
+                for (int i = 0; i < v.size(); i++) {
+                  result[i] += v[i];
+                }
+              }
+              count++;
+            }
+          }
+
+          if (count > 1) {
+            for (int i = 0; i < result.size(); i++) {
+              result[i] /= count;
+            }
+          }
+
+          ctx.combined_embedding = result;
+        """
+      }
+    }
+  ]
+}

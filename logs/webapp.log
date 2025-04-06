@@ -1,0 +1,555 @@
+{"@timestamp":"2025-04-06T18:41:16.063Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":36,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":47288,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 20:41:16,064", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 20:41:16,094", "log.level": "INFO", "message": "[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.254:5001"}
+{"@timestamp":"2025-04-06 20:41:16,094", "log.level": "INFO", "message": "[33mPress CTRL+C to quit[0m"}
+{"@timestamp":"2025-04-06 20:41:16,095", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T18:41:16.253Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":36,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":47292,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 20:41:16,254", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 20:41:16,268", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 20:41:16,273", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 20:42:40,644", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 20:42:40] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 20:42:40,714", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 20:42:40] "GET /static/loading.gif HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 20:42:40,714", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 20:42:40] "GET /static/vinobot3k.png HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 20:42:43,072", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 20:42:43] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 20:42:43,081", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 20:42:43] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:42:43,093", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 20:42:43] "[33mGET /api/varieties HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:42:58,484", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 20:42:58] "[33mGET /api/variety HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:43:07,817", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 20:43:07] "[33mGET /api/varieties HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:45:04,399", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:45:04] "[33mGET /api/varieties HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:45:04,586", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:45:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:45:43,320", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/routes.py', reloading"}
+{"@timestamp":"2025-04-06 20:45:43,374", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T18:45:43.616Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":36,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":50719,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 20:45:43,617", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 20:45:43,635", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 20:45:43,641", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 20:45:50,245", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 20:45:50] "[33mGET /healthz HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:49:45,048", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 20:49:45,085", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T18:49:45.356Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":36,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":53724,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06T18:50:04.020Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":36,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":53980,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 20:50:04,022", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 20:50:04,052", "log.level": "INFO", "message": "[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.254:5001"}
+{"@timestamp":"2025-04-06 20:50:04,052", "log.level": "INFO", "message": "[33mPress CTRL+C to quit[0m"}
+{"@timestamp":"2025-04-06 20:50:04,053", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T18:50:04.199Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":36,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":53982,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 20:50:04,200", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 20:50:04,213", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 20:50:04,218", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 20:50:51,520", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:50:51] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 20:50:51,580", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:50:51] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:50:51,659", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:50:51] "[33mGET /api/varieties HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:52:51,056", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:52:51] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 20:52:51,098", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:52:51] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:52:51,112", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:52:51] "[33mGET /api/varieties HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:52:58,710", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:52:58] "[33mGET /api/varieties HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 20:57:01,023", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 20:57:01,082", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T18:57:01.361Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":36,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":59237,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 20:57:01,363", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 20:57:01,385", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 20:57:01,390", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 20:57:14,826", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 20:57:14,885", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T18:57:15.124Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":36,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":59410,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 20:57:15,125", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 20:57:15,143", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 20:57:15,148", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06T18:57:19.030Z","log.level":"error","message":"Error al consultar variedades: name 'client' is not defined","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":84,"name":"__init__.py"},"function":"api_varieties"},"original":"Error al consultar variedades: name 'client' is not defined"},"process":{"name":"MainProcess","pid":59410,"thread":{"id":6202601472,"name":"Thread-2 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 20:57:19,030", "log.level": "ERROR", "message": "Error al consultar variedades: name 'client' is not defined"}
+{"@timestamp":"2025-04-06 20:57:19,032", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:57:19] "[35m[1mGET /api/varieties HTTP/1.1[0m" 500 -"}
+{"@timestamp":"2025-04-06 20:57:34,425", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 20:57:34] "GET /healthz HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 20:58:54,331", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 20:58:54,405", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T18:58:54.707Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":40,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":60674,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 20:58:54,709", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 20:58:54,728", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 20:58:54,733", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 20:58:58,215", "log.level": "DEBUG", "message": "Starting new HTTP connection (1): localhost:9200"}
+{"@timestamp":"2025-04-06 20:58:58,265", "log.level": "INFO", "message": "POST http://localhost:9200/vinos_a_uvas_enriched/_search [status:N/A duration:0.051s]"}
+{"@timestamp":"2025-04-06 20:58:58,266", "log.level": "WARNING", "message": "Node <Urllib3HttpNode(http://localhost:9200)> has failed for 1 times in a row, putting on 1 second timeout"}
+{"@timestamp":"2025-04-06 20:58:58,266", "log.level": "WARNING", "message": "Retrying request after failure (attempt 0 of 3)"}
+Traceback (most recent call last):
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1395, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1395, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+{"@timestamp":"2025-04-06 20:58:58,272", "log.level": "DEBUG", "message": "Starting new HTTP connection (2): localhost:9200"}
+{"@timestamp":"2025-04-06 20:58:58,294", "log.level": "INFO", "message": "POST http://localhost:9200/vinos_a_uvas_enriched/_search [status:N/A duration:0.023s]"}
+{"@timestamp":"2025-04-06 20:58:58,295", "log.level": "WARNING", "message": "Node <Urllib3HttpNode(http://localhost:9200)> has failed for 2 times in a row, putting on 2 second timeout"}
+{"@timestamp":"2025-04-06 20:58:58,295", "log.level": "WARNING", "message": "Retrying request after failure (attempt 1 of 3)"}
+Traceback (most recent call last):
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1395, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1395, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+{"@timestamp":"2025-04-06 20:58:58,296", "log.level": "DEBUG", "message": "Starting new HTTP connection (3): localhost:9200"}
+{"@timestamp":"2025-04-06 20:58:58,297", "log.level": "INFO", "message": "POST http://localhost:9200/vinos_a_uvas_enriched/_search [status:N/A duration:0.002s]"}
+{"@timestamp":"2025-04-06 20:58:58,297", "log.level": "WARNING", "message": "Node <Urllib3HttpNode(http://localhost:9200)> has failed for 3 times in a row, putting on 4 second timeout"}
+{"@timestamp":"2025-04-06 20:58:58,297", "log.level": "WARNING", "message": "Retrying request after failure (attempt 2 of 3)"}
+Traceback (most recent call last):
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1395, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/elastic_transport/_node/_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 449, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1395, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fucho/personales/vinos/wines/.venv/lib/python3.11/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+{"@timestamp":"2025-04-06 20:58:58,299", "log.level": "DEBUG", "message": "Starting new HTTP connection (4): localhost:9200"}
+{"@timestamp":"2025-04-06 20:58:58,300", "log.level": "INFO", "message": "POST http://localhost:9200/vinos_a_uvas_enriched/_search [status:N/A duration:0.002s]"}
+{"@timestamp":"2025-04-06 20:58:58,300", "log.level": "WARNING", "message": "Node <Urllib3HttpNode(http://localhost:9200)> has failed for 4 times in a row, putting on 8 second timeout"}
+{"@timestamp":"2025-04-06T18:58:58.300Z","log.level":"error","message":"Error al consultar variedades: Connection error caused by: ConnectionError(Connection error caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))))","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":88,"name":"__init__.py"},"function":"api_varieties"},"original":"Error al consultar variedades: Connection error caused by: ConnectionError(Connection error caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))))"},"process":{"name":"MainProcess","pid":60674,"thread":{"id":6166867968,"name":"Thread-2 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 20:58:58,300", "log.level": "ERROR", "message": "Error al consultar variedades: Connection error caused by: ConnectionError(Connection error caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))))"}
+{"@timestamp":"2025-04-06 20:58:58,301", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 20:58:58] "[35m[1mGET /api/varieties HTTP/1.1[0m" 500 -"}
+{"@timestamp":"2025-04-06 20:59:24,681", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 20:59:24,770", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T18:59:25.049Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":40,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":61060,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 20:59:25,051", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 20:59:25,069", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 20:59:25,075", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 21:00:40,377", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 21:00:40,441", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T19:00:40.707Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":40,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":61802,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 21:00:40,708", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 21:00:40,725", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 21:00:40,730", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 21:00:45,083", "log.level": "DEBUG", "message": "Starting new HTTPS connection (1): localhost:9200"}
+{"@timestamp":"2025-04-06 21:00:45,114", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 401 0"}
+{"@timestamp":"2025-04-06 21:00:45,114", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:401 duration:0.032s]"}
+{"@timestamp":"2025-04-06T19:00:45.114Z","log.level":"error","message":"Error al consultar variedades: AuthenticationException(401, 'security_exception', 'missing authentication credentials for REST request [/vinos_a_uvas_enriched/_search]')","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":88,"name":"__init__.py"},"function":"api_varieties"},"original":"Error al consultar variedades: AuthenticationException(401, 'security_exception', 'missing authentication credentials for REST request [/vinos_a_uvas_enriched/_search]')"},"process":{"name":"MainProcess","pid":61802,"thread":{"id":6160445440,"name":"Thread-2 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:00:45,114", "log.level": "ERROR", "message": "Error al consultar variedades: AuthenticationException(401, 'security_exception', 'missing authentication credentials for REST request [/vinos_a_uvas_enriched/_search]')"}
+{"@timestamp":"2025-04-06 21:00:45,115", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 21:00:45] "[35m[1mGET /api/varieties HTTP/1.1[0m" 500 -"}
+{"@timestamp":"2025-04-06 21:02:55,652", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 21:02:55,707", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T19:02:55.990Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":48,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":63373,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 21:02:55,991", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 21:02:56,010", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 21:02:56,018", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 21:03:03,461", "log.level": "DEBUG", "message": "Starting new HTTPS connection (1): localhost:9200"}
+{"@timestamp":"2025-04-06 21:03:03,534", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:03:03,534", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.073s]"}
+{"@timestamp":"2025-04-06 21:03:03,542", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 21:03:03] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:08:03,520", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 21:08:03,650", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T19:08:03.921Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":48,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":67296,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 21:08:03,922", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 21:08:03,941", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 21:08:03,946", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 21:08:07,122", "log.level": "DEBUG", "message": "Starting new HTTPS connection (1): localhost:9200"}
+{"@timestamp":"2025-04-06 21:08:07,165", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:08:07,165", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.043s]"}
+{"@timestamp":"2025-04-06 21:08:07,167", "log.level": "INFO", "message": "192.168.1.254 - - [06/Apr/2025 21:08:07] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:10:02,050", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:10:02] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:10:02,087", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:10:02] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:10:02,143", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:10:02,143", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.011s]"}
+{"@timestamp":"2025-04-06 21:10:02,144", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:10:02] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:10:05,903", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:10:05] "[33mGET /api/mapdata?wine_type=Parellada HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:11:00,306", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 21:11:00,354", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T19:11:00.643Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":48,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":69566,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 21:11:00,645", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 21:11:00,667", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 21:11:00,674", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 21:11:05,029", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:11:05] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:11:05,062", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:11:05] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:11:05,081", "log.level": "DEBUG", "message": "Starting new HTTPS connection (1): localhost:9200"}
+{"@timestamp":"2025-04-06 21:11:05,133", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:11:05,133", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.053s]"}
+{"@timestamp":"2025-04-06 21:11:05,135", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:11:05] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:11:39,823", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/routes.py', reloading"}
+{"@timestamp":"2025-04-06 21:11:39,859", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T19:11:40.099Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":48,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":70077,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 21:11:40,100", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 21:11:40,117", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 21:11:40,123", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 21:11:41,954", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:11:41] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:11:41,975", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:11:41] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:11:41,992", "log.level": "DEBUG", "message": "Starting new HTTPS connection (1): localhost:9200"}
+{"@timestamp":"2025-04-06 21:11:42,014", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:11:42,014", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.022s]"}
+{"@timestamp":"2025-04-06 21:11:42,015", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:11:42] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:12:05,834", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 21:12:05,872", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T19:12:06.114Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":48,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":70437,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 21:12:06,115", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 21:12:06,132", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 21:12:06,137", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 21:13:23,283", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:13:23] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:13:23,380", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:13:23] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:13:23,380", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:13:23] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06T19:13:38.358Z","log.level":"info","message":"Consulta recibida","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":57,"name":"__init__.py"},"function":"index"},"original":"Consulta recibida"},"process":{"name":"MainProcess","pid":70437,"thread":{"id":6165082112,"name":"Thread-5 (process_request_thread)"}},"user":{"query":"Por qu\u00e9 Rafael es tan intenso? "}}
+{"@timestamp":"2025-04-06 21:13:38,358", "log.level": "INFO", "message": "Consulta recibida"}
+{"@timestamp":"2025-04-06T19:13:38.358Z","log.level":"debug","message":"Llamando a prompter.py con el prompt","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":60,"name":"__init__.py"},"function":"index"},"original":"Llamando a prompter.py con el prompt"},"process":{"name":"MainProcess","pid":70437,"thread":{"id":6165082112,"name":"Thread-5 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:13:38,358", "log.level": "DEBUG", "message": "Llamando a prompter.py con el prompt"}
+{"@timestamp":"2025-04-06T19:14:11.177Z","log.level":"debug","message":"prompter.py completado en 32.818 segundos","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":68,"name":"__init__.py"},"function":"index"},"original":"prompter.py completado en 32.818 segundos"},"process":{"name":"MainProcess","pid":70437,"thread":{"id":6165082112,"name":"Thread-5 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:14:11,177", "log.level": "DEBUG", "message": "prompter.py completado en 32.818 segundos"}
+{"@timestamp":"2025-04-06 21:14:11,203", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:14:11] "POST / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:14:11,265", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:14:11] "[33mGET /static/robot_loading.gif HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:14:11,266", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:14:11] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:14:26,556", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:14:26] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:14:26,579", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:14:26] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:14:26,588", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:14:26] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06T19:14:42.827Z","log.level":"info","message":"Consulta recibida","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":57,"name":"__init__.py"},"function":"index"},"original":"Consulta recibida"},"process":{"name":"MainProcess","pid":70437,"thread":{"id":6165082112,"name":"Thread-11 (process_request_thread)"}},"user":{"query":"C\u00f3mo te llamas? "}}
+{"@timestamp":"2025-04-06 21:14:42,827", "log.level": "INFO", "message": "Consulta recibida"}
+{"@timestamp":"2025-04-06T19:14:42.830Z","log.level":"debug","message":"Llamando a prompter.py con el prompt","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":60,"name":"__init__.py"},"function":"index"},"original":"Llamando a prompter.py con el prompt"},"process":{"name":"MainProcess","pid":70437,"thread":{"id":6165082112,"name":"Thread-11 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:14:42,830", "log.level": "DEBUG", "message": "Llamando a prompter.py con el prompt"}
+{"@timestamp":"2025-04-06T19:14:49.828Z","log.level":"debug","message":"prompter.py completado en 6.998 segundos","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":68,"name":"__init__.py"},"function":"index"},"original":"prompter.py completado en 6.998 segundos"},"process":{"name":"MainProcess","pid":70437,"thread":{"id":6165082112,"name":"Thread-11 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:14:49,828", "log.level": "DEBUG", "message": "prompter.py completado en 6.998 segundos"}
+{"@timestamp":"2025-04-06 21:14:49,831", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:14:49] "POST / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:14:49,960", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:14:49] "[33mGET /static/robot_loading.gif HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:14:49,961", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:14:49] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:15:04,691", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:15:04] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:15:04,712", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:15:04] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:15:04,721", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:15:04] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:15:08,709", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:15:08] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:15:08,858", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:15:08] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:15:08,884", "log.level": "DEBUG", "message": "Starting new HTTPS connection (1): localhost:9200"}
+{"@timestamp":"2025-04-06 21:15:08,990", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:15:08,990", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.107s]"}
+{"@timestamp":"2025-04-06 21:15:08,992", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:15:08] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:15:58,444", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:15:58] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:15:58,502", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:15:58] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:15:58,679", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:15:58,680", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.021s]"}
+{"@timestamp":"2025-04-06 21:15:58,681", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:15:58] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:17:20,060", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/prompter.py', reloading"}
+{"@timestamp":"2025-04-06 21:17:20,159", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T19:17:20.435Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":48,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":74519,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 21:17:20,437", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 21:17:20,458", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 21:17:20,464", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 21:17:49,589", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:17:49] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:17:49,658", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:17:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:17:49,755", "log.level": "DEBUG", "message": "Starting new HTTPS connection (1): localhost:9200"}
+{"@timestamp":"2025-04-06 21:17:49,849", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:17:49,849", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.095s]"}
+{"@timestamp":"2025-04-06 21:17:49,858", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:17:49] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:17:52,019", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:17:52] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:17:52,139", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:17:52] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:17:52,139", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:17:52] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:17:54,039", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:17:54] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:17:54,076", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:17:54] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:17:54,135", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:17:54,135", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.036s]"}
+{"@timestamp":"2025-04-06 21:17:54,136", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:17:54] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:18:28,061", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/routes.py', reloading"}
+{"@timestamp":"2025-04-06 21:18:28,144", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T19:18:28.603Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":48,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":75426,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 21:18:28,608", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 21:18:28,639", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 21:18:28,647", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06 21:18:54,127", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:18:54] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:18:54,237", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:18:54] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:18:54,238", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:18:54] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06T19:18:57.089Z","log.level":"info","message":"Consulta recibida","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":57,"name":"__init__.py"},"function":"index"},"original":"Consulta recibida"},"process":{"name":"MainProcess","pid":75426,"thread":{"id":6204321792,"name":"Thread-5 (process_request_thread)"}},"user":{"query":"quien eres?"}}
+{"@timestamp":"2025-04-06 21:18:57,089", "log.level": "INFO", "message": "Consulta recibida"}
+{"@timestamp":"2025-04-06T19:18:57.090Z","log.level":"debug","message":"Llamando a prompter.py con el prompt","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":60,"name":"__init__.py"},"function":"index"},"original":"Llamando a prompter.py con el prompt"},"process":{"name":"MainProcess","pid":75426,"thread":{"id":6204321792,"name":"Thread-5 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:18:57,090", "log.level": "DEBUG", "message": "Llamando a prompter.py con el prompt"}
+{"@timestamp":"2025-04-06T19:19:13.999Z","log.level":"debug","message":"prompter.py completado en 16.908 segundos","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":68,"name":"__init__.py"},"function":"index"},"original":"prompter.py completado en 16.908 segundos"},"process":{"name":"MainProcess","pid":75426,"thread":{"id":6204321792,"name":"Thread-5 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:19:13,999", "log.level": "DEBUG", "message": "prompter.py completado en 16.908 segundos"}
+{"@timestamp":"2025-04-06 21:19:14,002", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:19:14] "POST / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:19:14,205", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:19:14] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:19:14,212", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:19:14] "[33mGET /static/robot_loading.gif HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:19:29,860", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:19:29] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:19:29,892", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:19:29] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:19:29,895", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:19:29] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:19:31,717", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:19:31] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:19:31,779", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:19:31] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:19:31,837", "log.level": "DEBUG", "message": "Starting new HTTPS connection (1): localhost:9200"}
+{"@timestamp":"2025-04-06 21:19:31,998", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:19:31,999", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.163s]"}
+{"@timestamp":"2025-04-06 21:19:32,000", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:19:32] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06T19:19:34.675Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Albari\u00f1o","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Albari\u00f1o"},"process":{"name":"MainProcess","pid":75426,"thread":{"id":6204321792,"name":"Thread-16 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:19:34,675", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Albariño"}
+{"@timestamp":"2025-04-06T19:19:34.676Z","log.level":"error","message":"Error al consultar Elasticsearch: name 'es' is not defined","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":154,"name":"__init__.py"},"function":"mapdata"},"original":"Error al consultar Elasticsearch: name 'es' is not defined"},"process":{"name":"MainProcess","pid":75426,"thread":{"id":6204321792,"name":"Thread-16 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:19:34,676", "log.level": "ERROR", "message": "Error al consultar Elasticsearch: name 'es' is not defined"}
+{"@timestamp":"2025-04-06 21:19:34,677", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:19:34] "[35m[1mGET /api/mapdata?wine_type=Albariño HTTP/1.1[0m" 500 -"}
+{"@timestamp":"2025-04-06 21:19:59,514", "log.level": "INFO", "message": " * Detected change in '/Users/fucho/personales/vinos/wines/app/__init__.py', reloading"}
+{"@timestamp":"2025-04-06 21:19:59,572", "log.level": "INFO", "message": " * Restarting with stat"}
+{"@timestamp":"2025-04-06T19:19:59.853Z","log.level":"debug","message":"Modo debug activado","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":48,"name":"__init__.py"},"function":"<module>"},"original":"Modo debug activado"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":8589298752,"name":"MainThread"}}}
+{"@timestamp":"2025-04-06 21:19:59,855", "log.level": "DEBUG", "message": "Logging setup complete"}
+{"@timestamp":"2025-04-06 21:19:59,875", "log.level": "WARNING", "message": " * Debugger is active!"}
+{"@timestamp":"2025-04-06 21:19:59,879", "log.level": "INFO", "message": " * Debugger PIN: 126-163-357"}
+{"@timestamp":"2025-04-06T19:20:05.502Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Albillo Mayor","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Albillo Mayor"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-2 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:20:05,502", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Albillo Mayor"}
+{"@timestamp":"2025-04-06 21:20:05,504", "log.level": "DEBUG", "message": "Starting new HTTPS connection (1): localhost:9200"}
+{"@timestamp":"2025-04-06 21:20:05,642", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:20:05,643", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.139s]"}
+{"@timestamp":"2025-04-06 21:20:05,646", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:20:05] "GET /api/mapdata?wine_type=Albillo%20Mayor HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06T19:20:25.973Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Godello","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Godello"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-3 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:20:25,973", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Godello"}
+{"@timestamp":"2025-04-06 21:20:25,995", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:20:25,996", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.022s]"}
+{"@timestamp":"2025-04-06 21:20:26,009", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:20:26] "GET /api/mapdata?wine_type=Godello HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06T19:20:49.229Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Godello","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Godello"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-4 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:20:49,229", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Godello"}
+{"@timestamp":"2025-04-06 21:20:49,296", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:20:49,296", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.057s]"}
+{"@timestamp":"2025-04-06 21:20:49,387", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:20:49] "GET /api/mapdata?wine_type=Godello HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06T19:24:05.227Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Malbec","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Malbec"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-6 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:24:05,227", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Malbec"}
+{"@timestamp":"2025-04-06 21:24:05,266", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:24:05,266", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.033s]"}
+{"@timestamp":"2025-04-06 21:24:05,273", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:24:05] "GET /api/mapdata?wine_type=Malbec HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:25:23,053", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:25:23] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:25:23,138", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:25:23] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:25:23,138", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:25:23] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06T19:25:35.052Z","log.level":"info","message":"Consulta recibida","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":57,"name":"__init__.py"},"function":"index"},"original":"Consulta recibida"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-10 (process_request_thread)"}},"user":{"query":"Por qu\u00e9 no cuelgas la ropa? "}}
+{"@timestamp":"2025-04-06 21:25:35,052", "log.level": "INFO", "message": "Consulta recibida"}
+{"@timestamp":"2025-04-06T19:25:35.053Z","log.level":"debug","message":"Llamando a prompter.py con el prompt","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":60,"name":"__init__.py"},"function":"index"},"original":"Llamando a prompter.py con el prompt"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-10 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:25:35,053", "log.level": "DEBUG", "message": "Llamando a prompter.py con el prompt"}
+{"@timestamp":"2025-04-06T19:25:46.776Z","log.level":"debug","message":"prompter.py completado en 11.723 segundos","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":68,"name":"__init__.py"},"function":"index"},"original":"prompter.py completado en 11.723 segundos"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-10 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:25:46,776", "log.level": "DEBUG", "message": "prompter.py completado en 11.723 segundos"}
+{"@timestamp":"2025-04-06 21:25:46,779", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:25:46] "POST / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:25:46,869", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:25:46] "[33mGET /static/robot_loading.gif HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:25:46,870", "log.level": "INFO", "message": "192.168.1.246 - - [06/Apr/2025 21:25:46] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:26:04,401", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:04] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:26:04,584", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:04] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:26:04,744", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:26:04,745", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.031s]"}
+{"@timestamp":"2025-04-06 21:26:04,746", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:04] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06T19:26:07.287Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Bobal","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Bobal"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-16 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:26:07,287", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Bobal"}
+{"@timestamp":"2025-04-06 21:26:07,302", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:26:07,302", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.014s]"}
+{"@timestamp":"2025-04-06 21:26:07,305", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:07] "GET /api/mapdata?wine_type=Bobal HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:26:14,772", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:14] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:26:14,946", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:14] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:26:14,949", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:14] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:26:17,735", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:17] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:26:17,814", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:17] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:26:17,907", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:26:17,907", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.041s]"}
+{"@timestamp":"2025-04-06 21:26:17,909", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:17] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06T19:26:23.466Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Alarije o Malvas\u00eda Riojana o Rojal","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Alarije o Malvas\u00eda Riojana o Rojal"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-23 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:26:23,466", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Alarije o Malvasía Riojana o Rojal"}
+{"@timestamp":"2025-04-06 21:26:23,496", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:26:23,496", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.026s]"}
+{"@timestamp":"2025-04-06 21:26:23,501", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:26:23] "GET /api/mapdata?wine_type=Alarije%20o%20Malvasía%20Riojana%20o%20Rojal HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:27:13,438", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:27:13] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:27:13,544", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:27:13] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:27:13,659", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:27:13,660", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.018s]"}
+{"@timestamp":"2025-04-06 21:27:13,662", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:27:13] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06T19:27:17.351Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Albari\u00f1o","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Albari\u00f1o"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-27 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:27:17,351", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Albariño"}
+{"@timestamp":"2025-04-06 21:27:17,372", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:27:17,372", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.018s]"}
+{"@timestamp":"2025-04-06 21:27:17,384", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:27:17] "GET /api/mapdata?wine_type=Albariño HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:27:21,499", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:27:21] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:27:21,648", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:27:21] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:27:21,651", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:27:21] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:28:13,331", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:28:13] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:28:13,411", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:28:13] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:28:13,621", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:28:13,622", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.093s]"}
+{"@timestamp":"2025-04-06 21:28:13,623", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:28:13] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06T19:28:29.840Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Palomino","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Palomino"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-34 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:28:29,840", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Palomino"}
+{"@timestamp":"2025-04-06 21:28:29,865", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:28:29,866", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.024s]"}
+{"@timestamp":"2025-04-06 21:28:29,883", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:28:29] "GET /api/mapdata?wine_type=Palomino HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06T19:28:45.220Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Viognier","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Viognier"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-35 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:28:45,220", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Viognier"}
+{"@timestamp":"2025-04-06 21:28:45,250", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:28:45,251", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.028s]"}
+{"@timestamp":"2025-04-06 21:28:45,262", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:28:45] "GET /api/mapdata?wine_type=Viognier HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:30:53,817", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:30:53] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:30:53,894", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:30:53] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:30:54,013", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:30:54,013", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.016s]"}
+{"@timestamp":"2025-04-06 21:30:54,014", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:30:54] "GET /api/varieties HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06T19:31:00.112Z","log.level":"debug","message":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Bobal","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":136,"name":"__init__.py"},"function":"mapdata"},"original":"Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Bobal"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-39 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:31:00,112", "log.level": "DEBUG", "message": "Consultando Elasticsearch para obtener datos de 'province_geometry' para el tipo de vino: Bobal"}
+{"@timestamp":"2025-04-06 21:31:00,119", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:31:00,119", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.007s]"}
+{"@timestamp":"2025-04-06 21:31:00,120", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:31:00] "GET /api/mapdata?wine_type=Bobal HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:31:52,861", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:31:52] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:31:52,909", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:31:52] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:31:52,913", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:31:52] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06T19:32:01.907Z","log.level":"info","message":"Consulta recibida","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":57,"name":"__init__.py"},"function":"index"},"original":"Consulta recibida"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-43 (process_request_thread)"}},"user":{"query":"sabes cu\u00e1l es tu nombre?"}}
+{"@timestamp":"2025-04-06 21:32:01,907", "log.level": "INFO", "message": "Consulta recibida"}
+{"@timestamp":"2025-04-06T19:32:01.907Z","log.level":"debug","message":"Llamando a prompter.py con el prompt","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":60,"name":"__init__.py"},"function":"index"},"original":"Llamando a prompter.py con el prompt"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-43 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:32:01,907", "log.level": "DEBUG", "message": "Llamando a prompter.py con el prompt"}
+{"@timestamp":"2025-04-06T19:32:08.472Z","log.level":"debug","message":"prompter.py completado en 6.565 segundos","ecs.version":"1.6.0","log":{"logger":"vinosearch","origin":{"file":{"line":68,"name":"__init__.py"},"function":"index"},"original":"prompter.py completado en 6.565 segundos"},"process":{"name":"MainProcess","pid":76600,"thread":{"id":6160084992,"name":"Thread-43 (process_request_thread)"}}}
+{"@timestamp":"2025-04-06 21:32:08,472", "log.level": "DEBUG", "message": "prompter.py completado en 6.565 segundos"}
+{"@timestamp":"2025-04-06 21:32:08,475", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:08] "POST / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:32:08,720", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:08] "[33mGET /static/robot_loading.gif HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:32:08,722", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:08] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:32:46,675", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:46] "GET / HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:32:46,749", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:46] "[36mGET /static/vinobot3k.png HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:32:46,751", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:46] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -"}
+{"@timestamp":"2025-04-06 21:32:48,689", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:48] "GET /mapas HTTP/1.1" 200 -"}
+{"@timestamp":"2025-04-06 21:32:48,758", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:48] "[33mGET /static/style.css HTTP/1.1[0m" 404 -"}
+{"@timestamp":"2025-04-06 21:32:48,903", "log.level": "DEBUG", "message": "https://localhost:9200 "POST /vinos_a_uvas_enriched/_search HTTP/1.1" 200 None"}
+{"@timestamp":"2025-04-06 21:32:48,903", "log.level": "INFO", "message": "POST https://localhost:9200/vinos_a_uvas_enriched/_search [status:200 duration:0.042s]"}
+{"@timestamp":"2025-04-06 21:32:48,906", "log.level": "INFO", "message": "127.0.0.1 - - [06/Apr/2025 21:32:48] "GET /api/varieties HTTP/1.1" 200 -"}

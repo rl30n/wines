@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados de la búsqueda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            max-width: 800px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .result {
+            background-color: #f9f9f9;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            white-space: pre-wrap;
+            margin-bottom: 30px;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #2196F3;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #1976D2;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            a {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="{{ url_for('static', filename='vinobot3k.png') }}" alt="VinoBot 3k" style="max-width: 150px; height: auto;">
+    </div>
+    <div class="container">
+        <h2>Tu pregunta:</h2>
+        <p class="question">{{ query }}</p>
+
+        <h2>VinoBot 3k dice:</h2>
+        <div id="loading" style="text-align: center; display: none; margin-bottom: 20px;">
+            <img src="{{ url_for('static', filename='robot_loading.gif') }}" alt="Procesando..." style="max-width: 100px; height: auto;">
+            <p>Procesando tu consulta...</p>
+        </div>
+        <div class="result">{{ result }}</div>
+
+        <a href="/">Volver</a>
+
+
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const forms = document.querySelectorAll("form");
+            forms.forEach(form => {
+                form.addEventListener("submit", () => {
+                    document.getElementById("loading").style.display = "block";
+                });
+            });
+        });
+    </script>
+</body>
+</html>

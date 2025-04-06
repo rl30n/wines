@@ -8,6 +8,13 @@ import ecs_logging
 import os
 from logging.handlers import TimedRotatingFileHandler, RotatingFileHandler
 from pathlib import Path
+import urllib3
+import warnings
+from urllib3.exceptions import InsecureRequestWarning, SecurityWarning
+from elastic_transport import TransportWarning
+warnings.filterwarnings("ignore", category=InsecureRequestWarning)
+warnings.filterwarnings("ignore", category=SecurityWarning)
+warnings.filterwarnings("ignore", category=TransportWarning)
 
 # --- Config ---
 ES_HOST = "https://localhost:9200"
@@ -72,6 +79,8 @@ def generate_embedding(prompt):
 
 # --- Query Elasticsearch con knn ---
 def search_vinos(embedding):
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    
     client = Elasticsearch(ES_HOST, basic_auth=(ES_USER, ES_PASS), verify_certs=False)
 
     query = {
@@ -114,7 +123,7 @@ def generate_answer_with_context(prompt, context_docs):
 
     composed_prompt = (
         f"Teniendo en cuenta la siguiente información sobre vinos:\n\n{context_texts}\n\n"
-        f"Responde a la siguiente pregunta de forma precisa y experta como somelier:\n\n{prompt}"
+        f"Responde a la siguiente pregunta de forma precisa y experta como el somelier que eres, VinoBot 3k:\n\n{prompt}"
     )
 
     logger.debug("Prompt enviado a Mistral con contexto:\n%s", composed_prompt[:1000])
@@ -146,5 +155,4 @@ for hit in results:
     logger.debug("Resultado: %s", hit)
 
 final_answer = generate_answer_with_context(args.prompt, results)
-print("\n🧠 Respuesta generada por Mistral:")
 print(final_answer)
